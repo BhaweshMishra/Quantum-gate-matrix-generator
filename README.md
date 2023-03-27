@@ -1,7 +1,7 @@
 
 # Quantum-gate-matrix-generator
 
-This program uses a truth table to generate the gate matrix for a quantum circuit. The truth_table_to_quantum_gate_matrix function takes the truth table as the input and returns the quantum gate matrix.
+This project uses a truth table to generate the gate matrix for a quantum circuit. The matrix generated can be used in various quantum computing libraries such as Cirq and Qiskit. The matrix can be used to make quantum gates as it will be easier for simulating circuits rather than using multiple universal gates.
 
 ## Quantum Gates
 A quantum logic gate is a basic quantum circuit operating on a small number of qubits. Quantum logic gates are reversible. The matrix of the quantum gate needs to be unitary. This implies that the truth table must have unique outputs for each input value (i.e if the truth table is represented as a function, it will be a one-one function).
